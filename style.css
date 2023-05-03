@@ -13,14 +13,13 @@ body {
 
 header {
     background-color: #1F2937;
-    padding: 16px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 32px;
     gap: 16px;
+    margin: 24px;
 }
 
 .links {
@@ -39,8 +38,8 @@ a {
 
 .container {
     display: flex;
-    margin-bottom: 32px;
     gap: 16px;
+    margin: 24px;
 }
 
 .hero-text-main {
@@ -68,9 +67,45 @@ a {
 
 .image {
     background-color: grey;
-    padding: 128px;
+    padding: 116px;
 }
 
 .hero-left-box, .hero-right-box {
     flex: 1;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 32px;
+    text-align: center;
+}
+
+.info-text-main {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    padding: 16px;
+    gap: 32px;
+}
+
+.info-small {
+    max-width: 100px;
+}
+
+.info-text-small {
+    font-size: 18px;
+}
+
+.box {
+    border: #3882F6 solid 2px;
+    padding: 32px;
+    margin: 16px;
+    border-radius: 8px;
 }
