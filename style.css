@@ -127,3 +127,35 @@ a {
     justify-content: right;
     font-weight: 800;
 }
+
+.action {
+    background-color: #3882F6;
+    margin: 44px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.call-text-main {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.action-left-box, .action-right-box {
+    padding: 24px;
+}
+
+.call-text-small {
+    color: #f9faf8;
+}
+
+.action-btn {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
